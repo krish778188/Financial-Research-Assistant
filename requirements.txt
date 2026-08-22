@@ -1,0 +1,15 @@
+# Core Agent & LLM Framework
+langchain
+langchain-community
+langchain_google_genai  
+
+# Data Gathering Tools
+tavily-python
+requests
+
+# Environment & Utility
+python-dotenv
+rich
+
+# Frontend (for when you build the user interface)
+streamlit
