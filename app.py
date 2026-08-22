@@ -80,12 +80,12 @@ with st.sidebar:
         st.session_state.session_id = str(uuid.uuid4())
         st.rerun()
     st.caption("Starting a new chat resets the context window and token history.")
+    st.markdown("---")
+    st.markdown("👨‍💻 **Made by Krish, Gen AI Engineer**")
 
 # 5. UI & Chat Interface
 st.title("📈 Personal Finance Assistant")
 st.markdown("Ask me for real-time stock data and the latest market news!")
-st.markdown("---")
-    st.markdown("👨‍💻 **Made by Krish, Gen AI Engineer**")
 
 # Display previous chat messages in the UI
 for msg in st.session_state.messages:
