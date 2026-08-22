@@ -84,6 +84,8 @@ with st.sidebar:
 # 5. UI & Chat Interface
 st.title("📈 Personal Finance Assistant")
 st.markdown("Ask me for real-time stock data and the latest market news!")
+st.markdown("---")
+    st.markdown("👨‍💻 **Made by Krish, Gen AI Engineer**")
 
 # Display previous chat messages in the UI
 for msg in st.session_state.messages:
