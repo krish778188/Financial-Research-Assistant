@@ -81,7 +81,15 @@ with st.sidebar:
         st.rerun()
     st.caption("Starting a new chat resets the context window and token history.")
     st.markdown("---")
-    st.markdown("👨‍💻 **Made by Krish**\n\n**Gen AI Engineer**")
+    st.markdown(
+        """
+        <div style='text-align: center; color: gray;'>
+            <p style='margin-bottom: 2px;'>👨‍💻 <b>Made by Krish</b></p>
+            <p style='font-size: 0.85em;'>Gen AI Engineer</p>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 # 5. UI & Chat Interface
 st.title("📈 Personal Finance Assistant")
 st.markdown("Ask me for real-time stock data and the latest market news!")
