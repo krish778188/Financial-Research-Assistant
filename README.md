@@ -12,7 +12,7 @@ An AI-powered financial agent built to help users make informed investment decis
 ## 🛠️ Tech Stack
 
 *   **Language:** Python
-*   **LLM:** Google Gemini (`gemini-2.5-flash`)
+*   **LLM:** Google Gemini (`gemini-3.5-flash`)
 *   **Framework:** LangChain (`langchain`, `langchain-google-genai`)
 *   **Frontend:** Streamlit
 *   **Data APIs:** Alpha Vantage, Tavily Search
