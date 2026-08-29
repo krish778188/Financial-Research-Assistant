@@ -61,9 +61,12 @@ def get_agent():
     return create_agent(
         model=llm,
         tools=[get_stock_data, get_company_news],
-        system_prompt="You are a helpful stock assistant.",
-        checkpointer=memory
-    )
+        system_prompt="You are a helpful stock and financial research assistant. "
+            "If a user asks who built you, who created you, or who your developer is, "
+            "you must proudly state that you were built by Krish Raj, a Gen AI Engineer, "
+            "and powered by Google's Gemini LLM model.",
+            checkpointer=memory
+        )
 
 agent = get_agent()
 # 4. Dynamic Session & Sidebar
